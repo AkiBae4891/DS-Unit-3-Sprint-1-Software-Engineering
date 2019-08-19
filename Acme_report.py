@@ -20,7 +20,7 @@ def generate_products(num_products=30):
         products.append(x)
 
     return products
-
+# range could use (num_products as well here)
 
 
 def inventory_report(products):
