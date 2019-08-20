@@ -264,11 +264,14 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
-  A: For code review, the first thing I would pay attention to is readability. It's very important to be able to follow someone's code and make sure it's reproducable. When someone is reviewing my code I hope they would poit out any ways to simplyfy my code and make it easier to follow. Having an honest and open dialogue about code allows both parties to expand their own ability and improve on themselves.  
+  
+  ### A: For code review, the first thing I would pay attention to is readability. It's very important to be able to follow someone's code and make sure it's reproducable. When someone is reviewing my code I hope they would point out any ways to simplyfy my code and make it easier to follow. Having an honest and open dialogue about code allows both parties to expand their own abilities and improve on themselves.  
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
-  A: They provide a built in environment where the code has worked. The modules we use are constantly being updated, shifted around and functions can change or be merged. With so many changes, it can break the code, resulting in malfunctions. By using a container it prevents the updates and changes from breaking the code. This provides a consistant environment. 
+  
+  ### A: They provide a built in environment where the code has worked. The modules we use are constantly being updated, shifted around and functions can change or be merged. With so many changes, it can break the code, resulting in malfunctions. By using a container it prevents the updates and changes from breaking the code. This provides a consistant environment. 
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
