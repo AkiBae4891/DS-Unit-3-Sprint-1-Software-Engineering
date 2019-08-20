@@ -43,9 +43,9 @@ class AcmeProductTests(unittest.TestCase):
         explode4 = Product('explode4', 0, 50, 1)
 
         self.assertEqual(explode1.explode(), "...fizzle.")
-        self.assertEqual(explode2.explode(), "...Boom!")
-        self.assertEqual(explode3.explode(), "...Boom!")
-        self.assertEqual(explode4.explode(), "...BABOOM!")
+        self.assertEqual(explode2.explode(), "...boom!")
+        self.assertEqual(explode3.explode(), "...boom!")
+        self.assertEqual(explode4.explode(), "...BABOOM!!")
 
 
 class AcmeReportTests(unittest.TestCase):
@@ -63,8 +63,8 @@ class AcmeReportTests(unittest.TestCase):
         for name in names:
             self.assertEqual(name.count(' '), 1)
             self.assertEqual(len(name.split()), 2)
-            self.assertIn(name.split()[0], ADJECTIVES)
-            self.assertIn(name.split()[1], NOUNS)
+            self.assertIn(name.split()[0], adjectives)
+            self.assertIn(name.split()[1], nouns)
 
 
 if __name__ == '__main__':
